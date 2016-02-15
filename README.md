@@ -3,6 +3,8 @@ Boilerplate to quickly prototype mean stack single page applications
 
 Quickstart:
 ```sh
+$ git clone https://github.com/coldlink/mean-spa-boilerplate.git
+$ cd mean-spa-boilerplate
 $ npm install
 $ bower install
 $ node server
