@@ -1,0 +1,27 @@
+{
+  "name": "mean-spa",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Mahesh Makani <mahesh.makani@netnatives.co.uk>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "animate.css": "^3.5.1",
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-strap": "^2.3.7"
+  }
+}
