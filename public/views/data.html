@@ -9,4 +9,26 @@
       <h3>{{ message }}</h3>
     </div>
   </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h4>Datas</h4>
+    </div>
+    <div class="col-md-4 col-sm-3 col-xs-12" ng-repeat="data in datas">
+      Name:&emsp;{{data.name}}&emsp;<button ng-click="delete(data)" type="button" class="btn btn-danger">Delete</button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-3 col-sm-3 col-xs-12">
+      <form name="form" ng-submit="create()" novalidate>
+        <div class="input-group">
+          <span class="input-group-addon">Name:</span>
+          <input type="text" class="form-control" placeholder="Hello World!" ng-model="newData.name">
+        </div>
+        <button type="submit" class="btn btn-default">
+          Add
+        </button>
+      </form>
+    </div>
+  </div>
 </div>

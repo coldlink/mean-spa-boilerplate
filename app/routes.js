@@ -52,7 +52,7 @@ module.exports = function(app) {
 	});
 
   // PUT ROUTES
-	app.update('/api/datas', function (req, res) {
+	app.put('/api/datas', function (req, res) {
 		if(req.body._id) { delete req.body._id; }
 	  Data.findById(req.params.id, function (err, data) {
 	    if (err) { return handleError(res, err); }
